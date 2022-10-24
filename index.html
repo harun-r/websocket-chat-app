@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web socket chat Application</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/app.css">
+</head>
+<body>
+    <div class="toast" id="toast">
+        <!-- server connection establish! -->
+        <!-- server connection discounted! -->
+        <!-- server connection failed! -->
+        <!-- please write something! -->
+    </div>
+    <div class="chat-wrap">
+        <div class="chat-header">
+            <h3>Welcome, Harun!</h3>
+        </div>
+        <div class="chat-body">
+            <!-- div with messages -->
+            <ul id="messages">
 
+            </ul>
+        </div>
+        <div class="chat-footer">
+            <form name="publish">
+                <input class="msg" type="text" name="message" placeholder="Write here">
+                <input class="submit-btn" type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
